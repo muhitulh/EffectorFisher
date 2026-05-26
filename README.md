@@ -17,8 +17,8 @@ singularityVersion '>=3.9.7'
 Example:
 project_directory/
 ├── 00_pan-gene/
-│   └── pan-gene.fasta
-└── 00_assembly/
+│   └── pangenes.fasta
+└── 01_assemblies/
     ├── sample1_assembly.fasta
     ├── sample2_assembly.fasta
     └── sample3_assembly.fasta
