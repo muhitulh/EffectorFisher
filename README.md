@@ -1,5 +1,5 @@
 ## Description:
-This Nextflow pipeline uses Metaeuk to predict genes across populations based on a reference pan-gene set. Thereafter, it extracts isoforms and produces two key outputs: (i) Isolate-specific locus level Presence-Absence Variation (PAV) summary table and (ii) Isoform level PAV summary table. These output files serve as results and either of these outputs can also be used as inputs for Effectorfisher-core analysis for effector prediction.
+This Nextflow pipeline uses Metaeuk to predict genes across populations based on a reference pan-gene set. Thereafter, it extracts isoforms and produces two key outputs: (i) Isolate-specific locus level Presence-Absence Variation (PAV) summary table and (ii) Isoform level PAV summary table. These output files serve as results and either of these outputs can also be used as inputs for [EffectorFisher-core](https://github.com/ccdmb/EffectorFisher-core) analysis for effector prediction.
 
 ## Prerequisites:
 ```
