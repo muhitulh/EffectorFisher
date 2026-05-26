@@ -10,18 +10,18 @@ singularityVersion '>=3.9.7'
  - **Pan-gene FASTA file:**  
    `00_pan-gene` directory
 
-- **Assembly files Location:**  
-  `00_assembly` directory; File naming convention: `{ID}_assembly.fasta`, where `{ID}` is a unique identifier for each assembly
+- **Assembly files Location:**
+  `01_assemblies` directory; File naming convention: `{ID}.fasta`, where `{ID}` is a unique identifier for each assembly
 
 ```
 Example:
-project_directory/
+EffectorFisher/
 ├── 00_pan-gene/
 │   └── pangenes.fasta
 └── 01_assemblies/
-    ├── sample1_assembly.fasta
-    ├── sample2_assembly.fasta
-    └── sample3_assembly.fasta
+    ├── FG7.fasta
+    ├── FG8.fasta
+    └── sample3.fasta
 ```
 
 ## Installation
